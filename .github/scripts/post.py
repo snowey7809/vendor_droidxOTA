@@ -52,7 +52,10 @@ telegraph = TelegraphHelper(
 )
 
 # File directories
-jsonDir = "builds" 
+jsonDir = {
+    "Gapps": "builds/gapps",
+    "Vanilla": "builds/vanilla"
+} 
 idDir = ".github/scripts"
 
 # Store IDs in a file to compare
@@ -64,12 +67,13 @@ def update(IDs):
 # Return IDs of all latest files from json files
 def get_new_id():
     files = []
-    file_id = []    
-    for all in os.listdir(jsonDir):
-        if all.endswith('.json'):
-            files.append(all)
+    file_id = []
+    for type, dirName in jsonDir.items():
+        for all in os.listdir(dirName):
+            if all.endswith('.json'):
+                files.append({"type": type, "dir": dirName, "file": all})
     for all_files in files:
-        with open(f"{jsonDir}/{all_files}", "r") as file:
+        with open(f"{all_files['dir']}/{all_files['file']}", "r") as file:
             data = json.loads(file.read())['response'][0]
             file_id.append(data['md5'])
     return file_id
@@ -91,16 +95,18 @@ def get_diff(new_id, old_id):
 # Grab needed info using ID of the file
 def get_info(ID):
     files = []
-    for all in os.listdir(jsonDir):
-        if all.endswith('.json'):
-            files.append(all)
+    for type, dirName in jsonDir.items():
+        for all in os.listdir(dirName):
+            if all.endswith('.json'):
+                files.append({"type": type, "dir": dirName, "file": all})
     for all_files in files:
-        with open(f"{jsonDir}/{all_files}", "r") as file:
+        with open(f"{all_files['dir']}/{all_files['file']}", "r") as file:
             data = json.loads(file.read())['response'][0]
             if data['md5'] == ID:
-                device = all_files
+                device = all_files['file']
+                build_type = all_files['type']
                 break
-    with open(f"{jsonDir}/{device}") as device_file:
+    with open(f"{jsonDir[build_type]}/{device}") as device_file:
         info = json.loads(device_file.read())['response'][0]
         DROIDX_VERSION = info['version']
         OEM = info['oem']
@@ -206,15 +212,16 @@ def send_log(chat_id, text, button):
 def get_devices():
     files = []
     devices = []
-    for all in os.listdir(jsonDir):
-        if all.endswith('.json'):
-            files.append(all)
+    for type, dirName in jsonDir.items():
+        for all in os.listdir(dirName):
+            if all.endswith('.json'):
+                files.append({"type": type, "dir": dirName, "file": all})
     for device in files:
-        with open(f"{jsonDir}/{device}", "r") as file:
+        with open(f"{device['dir']}/{device['file']}", "r") as file:
             data = json.loads(file.read())['response'][0]
             devices.append({
                 "device_name": data['device'],
-                "codename": device.split('.')[0],
+                "codename": device['file'].split('.')[0],
                 "maintainer": data['maintainer'],
                 "version": data['version']
             })
