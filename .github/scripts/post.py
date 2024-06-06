@@ -165,7 +165,7 @@ def message_content(information):
     msg += f"<b>Screenshots:</b> <a href='https://t.me/droidxui_screenshots'>Here</a>\n"
     msg += f"<b>Rom Support:</b> <a href='https://t.me/DroidXUI_announcements'>Channel</a> <b>|</b> <a href='https://t.me/DroidXUI_chats'>Group</a>\n"
     msg += f"<b>Device Support:</b> <a href='{information['telegram']}'>Here</a>\n"
-    msg += f"<b>Donate:</b> LINK HERE\n"
+    msg += f"<b>Donate:</b> <code>droidxuiofficial@oksbi</code>\n"
 
     msg += f"\n#NewHorizon #{information['codename']} #Android14 #Official"
     return msg
