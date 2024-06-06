@@ -2,9 +2,9 @@ name: Rom Poster Bot
 
 on:
   push:
-    paths-ignore:
-      - '.github/scripts/file_ids.txt'
-      - 'README.md'
+    paths:
+      - "builds/gapps/*.json"
+      - "builds/vanilla/*.json"
   workflow_dispatch:
 
 env:
