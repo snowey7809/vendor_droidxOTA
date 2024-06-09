@@ -481,5 +481,15 @@
         "github": "https://github.com/",
         "donation": "",
         "active": true
+    },
+    {
+        "vendor": "PlaceHolder",
+        "model": "PlaceHolder",
+        "codename": "placeholder",
+        "maintainer": "PlaceHolder",
+        "telegram": "https://t.me/PlaceHolder",
+        "github": "https://github.com/",
+        "donation": "",
+        "active": true
     }
 ]
