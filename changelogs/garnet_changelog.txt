@@ -3,6 +3,21 @@ Build type: Monthly
 Device: Redmi Note 13 Pro 5G / Poco X6 5G (garnet)
 Device maintainer: JYR_RC
 
+===== 10 June, 2024 =====
+
+- Fix fp small double tap error
+
+- Added moto Dolby
+
+- Added mediacodecs support
+
+- Fixed metallic sound in speakers
+
+- Signed build integrity pass default
+
+- No need firmware for install
+
+
 ===== 09 June, 2024 =====
 
 - Initial build
