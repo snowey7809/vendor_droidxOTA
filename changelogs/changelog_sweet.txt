@@ -1,0 +1,14 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 10 Pro (sweet)
+Device maintainer: JYR_RC
+
+===== 11 June, 2024 =====
+
+- Initial build
+
+- Signed build
+
+- Included miuicamera
+
+- Included Oneplus Dolby
