@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "Dr.Opto",
+                        "oem": "Redmi/Poco",
+                        "device": "Redmi Note 12 5G/Poco X5 5G",
+                        "version": "2.1",
+                        "filename": "droidx-2.1-20240612-1045-OFFICIAL-stone-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidx-releases/files/stone/droidx-2.1-20240612-1045-OFFICIAL-stone-Gapps.zip/download",
+                        "timestamp": 1718188893,
+                        "md5": "0629ab804c5e2671245355332e1f88a7",
+                        "sha256": "8c3e910a97045c13ba59bf99303825a9adc71d81d82dacd688a66feff0875f81",
+                        "size": 1745281105,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/Dr_Opto"
+                }
+        ]
+}

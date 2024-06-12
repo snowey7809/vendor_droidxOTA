@@ -1,0 +1,13 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 12 5G / Poco X5 5G (stone)
+Device maintainer: Dr.Opto
+
+===== 12 June, 2024 =====
+- Initial official relese
+- Gcam included by default
+
+Notes:
+==============================
+- Make sure flash region waise HyperOS firmware first.
+- Credits to All stone devs for trees.
