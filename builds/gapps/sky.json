@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "Ashwani212×Darklord",
+                        "oem": "Xiaomi",
+                        "device": "Redmi 12 5g/Poco M6 Pro 5g",
+                        "version": "2.1",
+                        "filename": "droidx-2.1-20240613-0541-OFFICIAL-sky-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidx-releases/files/sky/droidx-2.1-20240613-0541-OFFICIAL-sky-Gapps.zip/download",
+                        "timestamp": 1718257073,
+                        "md5": "9fcb5555c8e98484d43b4217c2409581",
+                        "sha256": "ad487bff53bce5389664159bbb598bd63f75f967a820ae8a09d45de638901ac0",
+                        "size": 1837250919,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/dxui_sky"
+                }
+        ]
+}

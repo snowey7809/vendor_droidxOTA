@@ -1,0 +1,11 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi 12 5g/Poco M6 Pro 5g (sky)
+Device maintainer: Ashwani212×Darklord
+========================================
+
+=================
+13th June, 2024
+=================
+* initial official release.
