@@ -1,0 +1,11 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 5 Pro (whyred)
+Device maintainer: Arijit Saha
+========================================
+
+=================
+14th June, 2024
+=================
+* initial official release.

@@ -1,0 +1,11 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 11 (spes)
+Device maintainer: sayann70
+========================================
+
+=================
+16th June, 2024
+=================
+- Initial A14 release.
