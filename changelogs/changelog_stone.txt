@@ -4,8 +4,11 @@ Device: Redmi Note 12 5G / Poco X5 5G (stone)
 Device maintainer: Dr.Opto
 
 ===== 12 June, 2024 =====
-- Initial official relese
-- Gcam included by default
+- No Micam for lifetime
+- No dolby for now
+- Enabke 24 bit audio for headphones
+- Add battery cycle count
+- many more changes
 
 Notes:
 ==============================
