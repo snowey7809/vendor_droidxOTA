@@ -3,6 +3,15 @@ Build type: Monthly
 Device: Redmi Note 7 Pro (violet)
 Device maintainer: Dr.Opto
 
+===== 20 June, 2024 =====
+- Drop Mi Camera
+- Fixed Offline charging animation
+- Update gps config & blobs
+- Show "Turbo charging" instead of "Charging rapidly"
+- Add props to improve battery backup
+- Update notification icons overlay for Android 14
+- Added Device Light Capabilities
+
 ===== 21 June, 2024 =====
 - Vanilla & Gapps both build updated
 - Add Mi Camera back again
