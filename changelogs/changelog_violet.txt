@@ -1,0 +1,20 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi Note 7 Pro (violet)
+Device maintainer: Dr.Opto
+
+===== 12 June, 2024 =====
+- Drop Mi Camera
+- Fixed Offline charging animation
+- Update gps config & blobs
+- Show "Turbo charging" instead of "Charging rapidly"
+- Add props to improve battery backup
+- Update notification icons overlay for Android 14
+- Added Device Light Capabilities
+
+Notes:
+==============================
+- Dynamic gapps user build
+- Clean flash is mandatory if you are coming from v2.0 
+- Firmware are included by default
+- Credits to All violet devs for trees.
