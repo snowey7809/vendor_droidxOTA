@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "Dr.Opto",
+                        "oem": "Redmi",
+                        "device": "Redmi Note 7 Pro",
+                        "version": "2.1",
+                        "filename": "droidx-2.1-20240620-1643-OFFICIAL-violet-Vanilla.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/violet/droidx-2.1-20240620-1643-OFFICIAL-violet-Vanilla.zip/download",
+                        "timestamp": 1718901689,
+                        "md5": "937bda1d5c7ad42b5da569a25c60eb49",
+                        "sha256": "e3bd703ec17e66b5d5a32e503473733b4964881dca17210280f85a6cf19a2272",
+                        "size": 1564571313,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/Dr_Opto"
+                }
+        ]
+}

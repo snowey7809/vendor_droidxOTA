@@ -3,7 +3,7 @@ Build type: Monthly
 Device: Redmi Note 7 Pro (violet)
 Device maintainer: Dr.Opto
 
-===== 12 June, 2024 =====
+===== 20 June, 2024 =====
 - Drop Mi Camera
 - Fixed Offline charging animation
 - Update gps config & blobs
@@ -12,9 +12,20 @@ Device maintainer: Dr.Opto
 - Update notification icons overlay for Android 14
 - Added Device Light Capabilities
 
+===== 21 June, 2024 =====
+- Vanilla & Gapps both build updated
+- Add Mi Camera back again
+- Enabe Battery Health & Add sysfs nodes
+- Show memory usage in app info
+- Add config_batteryChargeCycles node
+- Add nodes to hide Magisk in banking apps
+- Update wifi overlay from MIUI
+
 Notes:
 ==============================
-- Dynamic gapps user build
+- Dynamic user build
+- Use core gapps for vanilla build only
+- Dirty flash is possible only over 20.06.2024 A14/v2.1 gapps relese only
 - Clean flash is mandatory if you are coming from v2.0 
 - Firmware are included by default
-- Credits to All violet devs for trees.
+- Credits to All violet devs for all trees.
