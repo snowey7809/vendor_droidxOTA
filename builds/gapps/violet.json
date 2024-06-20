@@ -1,0 +1,19 @@
+{
+        "response": [
+                {
+                        "maintainer": "Dr.Opto",
+                        "oem": "Redmi",
+                        "device": "Redmi Note 7 Pro",
+                        "version": "2.1",
+                        "filename": "droidx-2.1-20240619-1906-OFFICIAL-violet-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidx-releases/files/violet/droidx-2.1-20240619-1906-OFFICIAL-violet-Gapps.zip/download",
+                        "timestamp": 1718823838,
+                        "md5": "9cad7cd66b6f38a6f52b5ca7a2e18a0d",
+                        "sha256": "0298bf5011b361b630b0874a9a8ed03a11af3645efb8659e5134bd74702d583b",
+                        "size": 1783209261,
+                        "buildtype": "Monthly",
+                        "forum": "",
+                        "telegram": "https://t.me/Dr_Opto"
+                }
+        ]
+}
