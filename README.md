@@ -36,7 +36,7 @@ You must be aware that just fulfilling these requirements doesn't necessarily me
                         "device": "''",
                         "version": "'$version'",
                         "filename": "'$filename'",
-                        "download": "https://sourceforge.net/projects/droidx-releases/files/'$1'/'$3'/download",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/'$1'/'$3'/download",
                         "timestamp": '$timestamp',
                         "md5": "'$md5'",
                         "sha256": "'$sha256'",
