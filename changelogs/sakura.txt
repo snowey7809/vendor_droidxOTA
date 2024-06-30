@@ -1,0 +1,11 @@
+========================================
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Redmi 6 Pro (sakura)
+Device maintainer: Shanks
+========================================
+
+=================
+30th June, 2024
+=================
+* Initial Build of DroidX 2.1
