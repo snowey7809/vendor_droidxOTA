@@ -21,11 +21,15 @@ Device maintainer: Dr.Opto
 - Add nodes to hide Magisk in banking apps
 - Update wifi overlay from MIUI
 
+===== 04 July, 2024 =====
+- Incremental update over 2.1
+- Shipped with Titan kernel v1.0
+
 Notes:
 ==============================
 - Dynamic user build
 - Use core gapps for vanilla build only
-- Dirty flash is possible only over 20.06.2024 A14/v2.1 gapps relese only
-- Clean flash is mandatory if you are coming from v2.0 
+- Dirty flash is possible only over previous build only
 - Firmware are included by default
 - Credits to All violet devs for all trees.
+- Credit goes to Hyperpower for server
