@@ -22,6 +22,6 @@ Before you apply to add your device into our list of official devices, you shoul
 
 10. You **MUST** meet all requirements as mentioned [here](device_requirements.md).
 
-If all is well, you may apply [here](https://github.com/DROIDX-UI/official/issues/new/choose)
+If all is well, you may apply [here](https://github.com/DroidX-UI/vendor_droidxOTA/issues/new/choose)
 
 If you have any doubts/questions, make sure to contact the team on [Our Telegram Group](https://t.me/DroidXUI_chats)
