@@ -6,6 +6,14 @@ Device maintainer: Ashwani212×Darklord
 ========================================
 
 =================
+06th July, 2024
+=================
+* Fixed Double tap to wake.
+* Fixed issue with freeze in systemui.
+* some bug fixes and improvements.
+
+
+=================
 13th June, 2024
 =================
 * initial official release.
