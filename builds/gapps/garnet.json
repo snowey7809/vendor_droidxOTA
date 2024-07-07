@@ -1,19 +1,19 @@
 {
-    "response": [
-        {
-            "maintainer": "JYR_RC",
-            "oem": "Redmi",
-            "device": "Redmi note 13 pro 5G",
-            "version": "2.1",
-            "filename": "droidx-2.1-20240611-1659-OFFICIAL-garnet-Gapps.zip",
-            "download": "https://sourceforge.net/projects/droidxui-releases/files/garnet/droidx-2.1-20240611-1659-OFFICIAL-garnet-Gapps.zip/download",
-            "timestamp": 1718125027,
-            "md5": "869662fb4b255caea0f8046341143dc3",
-            "sha256": "abef961b6a81e9f0d935692bf6dedba06dbd45591bd9ccfff728dc9312849a2b",
-            "size": 2517158554,
-            "buildtype": "gapps",
-            "forum": "",
-            "telegram": "https://t.me/garnet_support_JYR_RC"
-        }
-    ]
+        "response": [
+                {
+                        "maintainer": "JYR_RC",
+                        "oem": "Redmi",
+                        "device": "Redmi note 13 pro 5G",
+                        "version": "2.1.1",
+                        "filename": "droidx-2.1.1-20240707-1606-OFFICIAL-garnet-Gapps.zip",
+                        "download": "https://sourceforge.net/projects/droidxui-releases/files/garnet/droidx-2.1.1-20240707-1606-OFFICIAL-garnet-Gapps.zip/download",
+                        "timestamp": 1720368224,
+                        "md5": "45ddfe01d1d40a06005df71d68a28395",
+                        "sha256": "ebd945836ba74ab1cb6a4f872d8ef93e7fbb8221ebce2de695ac7896ca81a324",
+                        "size": 2539953322,
+                        "buildtype": "gapps",
+                        "forum": "",
+                        "telegram": "https://t.me/garnet_support_JYR_RC"
+                }
+        ]
 }
