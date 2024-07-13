@@ -9,3 +9,11 @@ Device maintainer: Shanks
 30th June, 2024
 =================
 * Initial Build of DroidX 2.1
+
+
+=================
+13th July, 2024
+=================
+* Bump upto DroidX 2.1.1
+* Fixed DT2W from Lockscreen
+* Nuked Livedisplay which causing crash
